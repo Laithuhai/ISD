@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/bglogin.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0px;
+  padding:0px;
+
+}
+ ul{
+  margin-bottom: 50px;
+   }
+ul a{
+  text-decoration: none;
+  font-size: 29px;
+  color: white;
+ 
+}
+ul a:hover{
+  text-decoration: none;
+  color: gray;
+}
+label{
+  font-size: 19px;
+  color: white;
+  font-weight: normal;
+  margin-left: 0px;
+}
+input{
+  margin:0px;
+  width: 100px;
+  background: transparent;
+  border-bottom: 1px solid #f44c89;
+  margin-bottom: 30px;
+  font-size: 22px;
+  color: white;
+
+}
+
+input[type="checkbox"]{
+  height: 15px;
+  width: 15px;
+
+}
+small{
+  color: white;
+}
+.btn{
+
+  background: #f44c89;
+  border: 2px solid red;
+  border-radius: 0px;
+  width: 85%;
+  margin: 40px;
+  font-size: 20px;
+  background: transparent;
+}
